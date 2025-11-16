@@ -1,0 +1,15 @@
+{
+  "url": "https://api.github.com/repos/torvalds/linux",
+  "interval": 300,
+  "output_dir": "./json_data",
+  "max_retries": 3,
+  "retry_delay": 5,
+  "archive_after": 100,
+  "webhook_url": "",
+  "process_script": "",
+  "compare_changes": true,
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "JSON-Fetcher/1.0"
+  }
+}
